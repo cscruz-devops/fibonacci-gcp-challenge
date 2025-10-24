@@ -16,6 +16,8 @@ It calculates the next Fibonacci number for any given input and demonstrates a m
           v
       [ User Requests via HTTPS ]
 
+![alt text](image.png)      
+
 🚀 Components
 Layer	              Technology	                                       Purpose
 Infrastructure	      Terraform	                                           Automates GCP resource provisioning
