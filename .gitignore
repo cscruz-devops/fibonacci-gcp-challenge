@@ -1,0 +1,38 @@
+# --- Java / Maven / Spring Boot ---
+target/
+*.class
+*.log
+*.iml
+.idea/
+.project
+.classpath
+.settings/
+# Si usas wrapper de Maven, normalmente se versiona .mvn/ y mvnw*
+# (no ignores mvnw, mvnw.cmd ni .mvn/wrapper/**)
+
+# --- Docker / Entornos ---
+.env
+.env.*
+*.env
+
+# --- Terraform ---
+**/.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*.tfvars
+*.tfvars.json
+.terraform.lock.hcl
+
+# --- SO / Editores ---
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+*.swo
+
+# --- Credenciales (para evitar subir llaves por error) ---
+*.json
