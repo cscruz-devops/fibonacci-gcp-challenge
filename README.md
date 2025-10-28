@@ -132,13 +132,3 @@ Next steps to integrate a secure GitHub Actions pipeline:
 3-Add .github/workflows/deploy.yml to trigger on merge to main.
 
 This eliminates local credentials and enables passwordless OIDC authentication from GitHub to GCP.
-
-📚 Maintainer
-
-Cesley Sousa Cruz (cscruz-devops)
-Multi-cloud Engineer / DevOps / SRE
-
-
-🪪 License
-
-This project is licensed under the MIT License — see the LICENSE file for details.
